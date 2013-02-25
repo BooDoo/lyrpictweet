@@ -1,5 +1,3 @@
-[![Nodejitsu Deploy Status Badges](https://webhooks.nodejitsu.com/boodoo/gcatpix.png)](https://webops.nodejitsu.com#boodoo/gcatpix)
-
 Lyr+Pic=Tweet (lyrpictweet)
 =================
 
