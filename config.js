@@ -95,7 +95,7 @@ var credentials = {
       tags:                 "",
       lyricGenre:           "all",
       interval:             process.env['NODE_ENV'] === 'production' ? 60000*60 : 30000
-    }/*,
+    },
 
     camptownraces:
     {
@@ -140,41 +140,7 @@ var credentials = {
       },
       searchInterval:       process.env['NODE_ENV'] === 'production' ? 60000*60*2 : 60000*4,
       interval:             process.env['NODE_ENV'] === 'production' ? 60000*15   : 30000
-    },
-
-    latourswag:
-    {
-      type:                 "tweetmash",
-      handle:               "latourswag",
-      twitter:              credentials.twitter_xyisx,
-      criteria:             ["#swag and", "from:latourbot"],
-      pivot:                " and ",
-      //searchInterval:       process.env['NODE_ENV'] === 'production' ? 60000*10 : 30000,
-      interval:             process.env['NODE_ENV'] === 'production' ? 60000*15 : 60000
-    },
-    
-    commentsreminder: {
-      type:                 "reminder",
-      handle:               "commentsreminder",
-      twitter:              credentials.twitter_xyisx,
-      contentPool:          ['Message 1', 'Message 2', 'Message 3', 'Message 4', 'Message 5', 'Message 6', 'Message 7', 'Message 8'],
-      isRandom:             true,
-      //prefix:             '',
-      //suffix:             '',
-      interval:             process.env.NODE_ENV === 'production' ? 60000*60*24 : 30000
-    },
-    
-    mlg420:
-    {
-      type:                 "youtube",
-      handle:               "mlg420",
-      twitter:              credentials.twitter_xyisx,
-      criteria:             'mlg+420',
-      //contentPool:        ,
-      //isRandom:           true,
-      searchInterval:       process.env.NODE_ENV === 'production' ? 60000*60*4 : 30000,
-      interval:             process.env.NODE_ENV === 'production' ? 60000*60*8 : 60000
-    }*/
+    }
   };
 
 module.exports.credentials = credentials;
